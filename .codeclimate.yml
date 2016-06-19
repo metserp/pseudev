@@ -6,7 +6,6 @@ engines:
     config:
       languages:
       - coffee
-      - javascript
 ratings:
   paths:
   - src/dist/**
