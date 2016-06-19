@@ -61,3 +61,5 @@ Pseudev = (function() {
   return Pseudev;
 
 })();
+
+module.exports = Pseudev;
