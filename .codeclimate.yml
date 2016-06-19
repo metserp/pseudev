@@ -1,0 +1,13 @@
+engines:
+  coffeelint:
+    enabled: true
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - coffee
+      - javascript
+ratings:
+  paths:
+  - src/dist/**
+  - "**.coffee"
