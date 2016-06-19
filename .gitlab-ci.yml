@@ -1,0 +1,14 @@
+before_script:
+  - npm install -g mocha
+  - npm install
+
+
+stages:
+  - test
+
+test:
+  stage: test
+  tags:
+    - test
+  script:
+    - npm test
